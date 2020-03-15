@@ -1,0 +1,19 @@
+version: '3'
+services:
+  flyway:
+    image: flyway/flyway:6.3.1
+    command: -configFiles=/flyway/conf/flyway.config -locations=filesystem:/flyway/sql -connectRetries=60 migrate
+    volumes:
+      - ${PWD}/sql_versions:/flyway/sql
+      - ${PWD}/docker-flyway.config:/flyway/conf/flyway.config
+    depends_on:
+      - postgres
+  postgres:
+    image: postgres:12.2
+    restart: always
+    ports:
+    - "5432:5432"
+    environment:
+    - POSTGRES_USER=example-username
+    - POSTGRES_PASSWORD=pass
+    - POSTGRES_DB=db-name
