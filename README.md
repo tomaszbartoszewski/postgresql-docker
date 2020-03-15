@@ -10,4 +10,4 @@ Press Ctrl+C when you no longer need db to run. To remove instance from your loc
 ./destroy_docker_instance.sh
 ```
 
-More details about this repo will be on my blog soon.
+If you want to read more about this repo, check this [blog post](https://writeitdifferently.com/postgresql/flyway/2020/03/15/running-postgresql-and-flyway-with-docker-compose.html).
