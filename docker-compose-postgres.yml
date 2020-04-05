@@ -9,7 +9,7 @@ services:
     depends_on:
       - postgres
   postgres:
-    image: postgres:12.2
+    image: postgres:12.2-alpine
     restart: always
     ports:
     - "5432:5432"
