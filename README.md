@@ -27,6 +27,7 @@ make tests
 ## Used materials
 
 For this repo I used other's work, you can find it here:
+
 https://github.com/docker-library/postgres/issues/306#issuecomment-345063809
 
 https://github.com/walm/docker-pgtap
