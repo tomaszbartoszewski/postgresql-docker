@@ -1,5 +1,9 @@
 ## Running PostgreSQL and Flyway in Docker
 
+If you want to see this repo without tests, only with Flyway, you can look at this version.
+
+https://github.com/tomaszbartoszewski/postgresql-docker/tree/f626784c8c4e974430bed19c434f318d3da7e807
+
 To run PostgreSQL in Docker and apply schema using flyway, you have to run:
 ```
 ./run_in_docker.sh
