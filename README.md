@@ -14,7 +14,9 @@ Press Ctrl+C when you no longer need db to run. To remove instance from your loc
 ./destroy_docker_instance.sh
 ```
 
-If you want to read more about this repo, check this [blog post](https://writeitdifferently.com/postgresql/flyway/2020/03/15/running-postgresql-and-flyway-with-docker-compose.html).
+If you want to read more about Flyway schema migration in this repo, check this [blog post](https://writeitdifferently.com/postgresql/flyway/2020/03/15/running-postgresql-and-flyway-with-docker-compose.html).
+
+If you want to read how I'm using pgTAP look at this [blog post](https://writeitdifferently.com/postgresql/pgtap/2020/04/08/pgtap-flyway-with-docker.html).
 
 ## Running pgTAP tests
 
